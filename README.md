@@ -4,7 +4,7 @@ i)   O arquivo original "lyrics-data.csv" que contém as letras musicais não es
 <br />
 ii)  A tabela no banco de dados somente é criada após a execução do script objetivando permitir ao examinador o teste da correta execução, contudo uma vez criada e novamente o script executado esta não será recriada;<br />
 <br />
-iii) Foram idenficados registros duplicados no arquivo "lyrics-data.csv" para a banda "AC/DC", portanto, para garantia de que não serão ofertadas ao cliente letras musicais em duplicidade, somente são inseridos registros exclusivos;<br />
+iii) Foram identificados registros duplicados no arquivo "lyrics-data.csv" para a banda "AC/DC", portanto, para garantia de que não serão ofertadas ao cliente letras musicais em duplicidade, somente são inseridos registros exclusivos;<br />
 <br />
 iv)  O Jupyter Notebook para teste do script faz a função de ETL através das funções: filter_csv(), create_table(), insert_data() e analítica através das funções: top3_genres_brasil() e mais_do_mesmo();<br />
 <br />
